@@ -1,0 +1,125 @@
+* {
+  color: #4489f2;
+}
+
+.conteudoCadastro {
+  width: 100%;
+  height: calc(100vh-);
+  padding-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gifCadastro {
+  width: 500px;
+  margin-right: -550px;
+}
+
+.cadastro1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: -3px -3px 15px rgb(182, 180, 180);
+  font-family: poppins!;
+  border-radius: 15px;
+  padding: 2rem;
+}
+
+form {
+  margin-right: 100px;
+}
+
+form h3 {
+  font-size: 30px;
+  padding: 1% 0 5% 0;
+  text-align: center;
+}
+
+form input {
+  padding: 8px;
+  font-size: 14px;
+  margin-top: 8px;
+  border: solid 1px;
+  border-radius: 8px;
+  border-color: #4489f2;
+}
+
+input:focus {
+  outline: none;
+}
+
+form label {
+  padding-top: 2%;
+  font-size: 16px;
+  margin-left: 0;
+  float: left;
+}
+
+form .col-md-12 {
+  display: flex;
+  flex-direction: column;
+}
+
+form button {
+  padding: 10px 55px 10px 55px;
+  border: none;
+  border-color: #4489f2;
+  color: white;
+  background-color: #4489f2;
+  border-radius: 5px;
+  margin-top: 4%;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: #2677f0;
+}
+
+button:focus {
+  outline: none;
+}
+
+form p {
+  padding-top: 5%;
+  width: 80%;
+  font-size: 12px;
+  align-self: center;
+  text-align: center;
+}
+form a {
+  font-weight: bold;
+}
+
+.radio {
+  margin-left: 0.5%;
+  padding-left: 0;
+  padding-bottom: 2%;
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.selectName {
+  border-color: #4489f2;
+  color: #000;
+  border-radius: 5px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+#empregado {
+  display: flex;
+  flex-direction: column;
+}
+.select-cad{
+  margin-top: 8px;
+  border-color:#4489f2;
+  border-radius: 8px;
+  height: 40px;
+}
+.select-cad:focus {
+  outline: none;
+}
